@@ -52,8 +52,12 @@ li {
   margin: 5px 0;
 }
 
-tr {
-  border: 2px solid #0B3846;
+tr{
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
 }
 
 .movies {
@@ -88,7 +92,7 @@ tr {
   background-color: white;
   padding: 30px;
   box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.2);
-  border-radius: 3px;
+  border-radius: 15px;
   margin: 10px auto;
 }
 
@@ -108,7 +112,7 @@ tr {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -116,13 +120,19 @@ tr {
   color: #FFBBBB
 }
 
-#sidebar li {
-  margin: 30px auto;
+#page-content {
+  margin-left: 10px;
 }
 
+#sidebar a {
+  color: #FCD2C2;
+}
 
+#sidebar li {
+  margin: 20px auto
+}
 
-#page-content {
-  margin-left: 30px;
+#sidebar a:hover {
+  color: #FFBBBB;
 }
 
