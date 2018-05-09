@@ -39,8 +39,13 @@ p {
 
 a {
   font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: #294A66;
  }
 
+a:hover {
+  color: #3d6e99;
+}
 
 li {
   list-style-type: none;
@@ -108,7 +113,14 @@ tr {
   top: 0;
   bottom: 0;
   background-color: #294A66;
+  color: #FFBBBB
 }
+
+#sidebar li {
+  margin: 30px auto;
+}
+
+
 
 #page-content {
   margin-left: 30px;
