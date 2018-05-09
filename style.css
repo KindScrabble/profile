@@ -1,0 +1,103 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #FFBBBB;
+  font-family: arial;
+  color: #294A66;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+h3,h4 {
+  font-family: 'Gothic A1', sans-serif;
+  line-height: 20px;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  line-height: 20px;
+  text-align: center;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+ }
+
+
+li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+tr {
+  border: 2px solid #0B3846;
+}
+
+.movies {
+  height: 250px;
+  width: 200px;
+ }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+#profile_picture {
+  width: 300px;
+  margin: 20px auto;
+}
+
+
+#profile_picture img {
+  border-radius: 50%;
+  border: 2px solid #0B3846;
+}
+
+.movies_table {
+  /*width: 600px;*/
+  border: 2px solid #0B3846;
+  border-radius: 10%;
+  background-color: #FCD2C2;
+}
+
+.section-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.2);
+  border-radius: 3px;
+  margin: 10px auto;
+}
+
+.movie_title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
